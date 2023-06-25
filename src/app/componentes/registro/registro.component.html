@@ -1,0 +1,38 @@
+<div class = "card mx-auto">
+    <div class="card-header  text-center">
+      <h5 style="color: rgb(19, 184, 101);" >Crear Cuenta</h5>
+    </div>
+    
+    <form  id="form" action="/cargar-articulo">
+        <div class="card-body">
+            <div class="entrada mb-3">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" class="form-control" id="exampleInputtext"placeholder="Nombre completo">
+              </div>
+              <div class="entrada mb-3">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <input type="email" class="form-control" id="exampleInputtext"placeholder="correo electronico">
+              </div>
+        <div class="entrada mb-3 mt-3" >
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="telefono">
+          
+        </div>
+        <div class="entrada mb-3">
+          <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+          <input type="contraseña" class="form-control" id="contra1"placeholder="contraseña">
+        </div>
+        <div class="entrada mb-3">
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            <input type="contraseña" class="form-control" id="contra2"placeholder=" confirma contraseña">
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto los Terminos y condiciones</label>
+         
+        </div>
+        <button type="submit" class="btn btn-dark"  onclick="alert('Registro completo');"routerLink="/login">Registrarme</button>
+       
+    </div>
+      </form>
+    </div>

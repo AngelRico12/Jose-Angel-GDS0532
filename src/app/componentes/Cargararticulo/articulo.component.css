@@ -1,0 +1,40 @@
+.entrada{
+    position: relative; 
+    
+}
+
+i {
+    position: absolute;
+    left: 20px; 
+    top: 15px; 
+
+}
+
+.form-control {
+    padding-left: 60px; 
+}
+.form-select{
+    padding-left:40px ;
+}
+.card {
+    width: 800px; 
+    padding: 20px; 
+    margin-top: 60px; 
+}
+button{
+    width: 100%;
+}
+.libro{
+    position: relative;
+    top: -90px;
+}
+.archivo{
+    padding-left:40px;
+}
+
+h5 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}

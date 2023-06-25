@@ -1,0 +1,40 @@
+<div class = "card mx-auto">
+    <div class="card-header text-center">
+      <h5 style="color: rgb(19, 184, 101);" >Cargar Articulo</h5>
+    </div>
+    
+    <form  action="/cargar-articulo">
+        <div class="card-body">
+            <div class="entrada mb-3 mt-3">
+                <i class="fa fa-university" aria-hidden="true"></i>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Tipo subsistema</option> 
+                <option value="1">Universidad Tecnológica</option>
+                <option value="2">Universidad Politécnica</option>
+                <option value="3">Instituto Tecnológico</option>
+              </select>
+             </div>
+             <div class="entrada mb-3">
+                <i class="fa fa-book" aria-hidden="true"></i>
+                <input type="text" class="form-control" id="exampleInputtext"placeholder="Titulo Articulo">
+              </div>
+              <div class="entrada mb-3">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" class="form-control" id="exampleInputtext"placeholder="Autor">
+              </div>
+        
+              <div class="entrada mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> Breve resumen del artículo</textarea>
+             <div class="libro">  <i class="fa fa-book" aria-hidden="true"></i> </div>
+              </div>
+              
+              <div class="input-group mb-3">
+                <i class="fa fa-file-text" aria-hidden="true"></i>
+                <div class="archivo">
+                <input type ="file"></div>
+              </div>
+        <button type="submit" class="btn btn-dark"onclick="alert('Registro completado');"routerLink="/login">Cargar Archivo</button>
+       
+    </div>
+      </form>
+</div>
